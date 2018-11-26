@@ -25,7 +25,7 @@ function onReady() {
     toDoList.appendChild(newLi);
 
     //empty the input
-    newToDoText.value = ''; 
+    newToDoText.value = '';
   });
 }
 
