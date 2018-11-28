@@ -7,7 +7,7 @@ function onReady() {
     event.preventDefault();
 
     // get the text
-    let title = new ToDoText.value;
+    let title = newToDoText.value;
 
     // create a new li
     let newLi = document.createElement('li');
