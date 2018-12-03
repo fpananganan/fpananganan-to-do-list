@@ -1,16 +1,20 @@
 function onReady() {
-  const addToDoForm = document.getElementById('addToDoForm');
-  const newToDoText = document.getElementById('newToDoText');
-  const toDoList = document.getElementById('toDoList');
+  const addToDoForm = document.getElementByID('addToDoForm');
+  const newToDoText = document.getElementByID('newToDoText');
+  const toDoList = document.getElementByID("toDoList");
 
-  addToDoForm.addEventListener('submit', event => {
+  addToDoForm.addEventListener();
+  addToDoForm.addEventListener('submit', () => {
     event.preventDefault();
 
-    // get the newToDoText
+    // get the text
     let title = newToDoText.value;
 
     // create a new Li
-    let newLi = document.createElement('li');
+    let new Li = document.createElement('li');
+
+    // create a new input
+    let checkbox = document.createElement('input');
 
     // create a new input
     let checkbox = document.createElement('input');
@@ -42,7 +46,7 @@ function onReady() {
     deleteBut.addEventListener('click', event => {
       toDoList.removeChild(newLi);
       toDoList.removeChild(deleteBut);
-    }); 
+    });
 
   });
 }
