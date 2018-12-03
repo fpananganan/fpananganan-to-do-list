@@ -1,5 +1,10 @@
 body {
   height: 60vh;
+<<<<<<< HEAD
+=======
+  justify-content: center;
+  text-align: center;
+>>>>>>> checkpoint-5
 }
 
 h1 {
